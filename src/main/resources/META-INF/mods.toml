@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+[[mods]]
+modId="mbe"
+version="${mod_version}"
+displayName="MultiBlock Engineer"
+authors="${mod_authors}"
+description='''${mod_description}'''
+
+[[dependencies.mbe]]
+    modId="forge"
+    mandatory=true
+    versionRange="${forge_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.mbe]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
