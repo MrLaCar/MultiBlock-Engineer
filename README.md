@@ -6,4 +6,4 @@ New Contents
 - More Planets
 
 ## Credited Works
-- Textures of processor and coils are originally from from the **[GregTech Modern](https://github.com/GregTechCEu/GregTech-Modern)**
+- Textures of processor and coils are originally from the **[GregTech Modern](https://github.com/GregTechCEu/GregTech-Modern)**
