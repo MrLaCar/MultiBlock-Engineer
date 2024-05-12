@@ -7,3 +7,6 @@ New Contents
 
 ## Credited Works
 - Textures of processor and coils are originally from the **[GregTech Modern](https://github.com/GregTechCEu/GregTech-Modern)**
+
+## Future Plans
+- **[TODO List]([https://github.com/GregTechCEu/GregTech-Modern](https://github.com/MrLaCar/MultiBlock-Engineer/issues/1))**
