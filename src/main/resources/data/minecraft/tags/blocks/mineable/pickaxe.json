@@ -6,6 +6,10 @@
     "mbe:energy_restraint_casing",
     "mbe:structural_reinforced_pipe_casing",
     "mbe:neutronium_reinforced_glass",
-    "mbe:super_stable_concrete"
+    "mbe:super_stable_concrete",
+
+    "mbe:cylios_stone",
+    "mbe:cylios_cobbelstone",
+    "mbe:cylios_deepslate"
   ]
 }

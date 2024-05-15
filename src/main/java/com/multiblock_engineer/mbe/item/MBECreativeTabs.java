@@ -68,10 +68,13 @@ public class MBECreativeTabs {
                     .build());
 
     public static final RegistryObject<CreativeModeTab> GALAXY = CREATIVE_MODE_TAB.register("galaxy",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(MBEBlocks.ENERGY_RESTRAINT_CASING.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(MBEBlocks.CYLIOS_DEEPSLATE.get()))
                     .title(Component.translatable(MBE_GALAXY))
                     .displayItems((pParameters, pOutput) -> {
-                        pOutput.accept(MBEBlocks.ENERGY_RESTRAINT_CASING.get());
+                        pOutput.accept(MBEBlocks.CYLIOS_SAND.get());
+                        pOutput.accept(MBEBlocks.CYLIOS_STONE.get());
+                        pOutput.accept(MBEBlocks.CYLIOS_DEEPSLATE.get());
+                        pOutput.accept(MBEBlocks.CYLIOS_COBBELSTONE.get());
                     })
                     .build());
 

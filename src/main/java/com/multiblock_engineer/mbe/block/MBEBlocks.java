@@ -4,10 +4,10 @@ import com.multiblock_engineer.mbe.MultiBlock_Engineer;
 import com.multiblock_engineer.mbe.item.MBEItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.GlassBlock;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
+import net.minecraft.world.level.material.MapColor;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -66,8 +66,18 @@ public class MBEBlocks {
             () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.GLASS)
                     .strength(8f).requiresCorrectToolForDrops().noOcclusion()));
 //Galaxy
-
-
+    public static final RegistryObject<Block> CYLIOS_SAND= registerBlock("cylios_sand",
+            () -> new SandBlock(331900, BlockBehaviour.Properties.copy(Blocks.SAND)
+                    .mapColor(MapColor.SAND).instrument(NoteBlockInstrument.SNARE).strength(0.5F).sound(SoundType.SAND)));
+    public static final RegistryObject<Block> CYLIOS_STONE= registerBlock("cylios_stone",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)
+                    .mapColor(MapColor.STONE).instrument(NoteBlockInstrument.BASEDRUM).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> CYLIOS_COBBELSTONE= registerBlock("cylios_cobbelstone",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)
+                    .mapColor(MapColor.STONE).instrument(NoteBlockInstrument.BASEDRUM).requiresCorrectToolForDrops().strength(3.5F)));
+    public static final RegistryObject<Block> CYLIOS_DEEPSLATE= registerBlock("cylios_deepslate",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)
+                    .mapColor(MapColor.STONE).instrument(NoteBlockInstrument.BASEDRUM).requiresCorrectToolForDrops().strength(6.0F)));
 
     public static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

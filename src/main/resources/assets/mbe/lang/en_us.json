@@ -35,6 +35,10 @@
   "block.mbe.neutronium_reinforced_glass": "Neutronium Reinforced Glass",
   "block.mbe.super_stable_concrete": "Super Stable Concrete",
 
+  "block.mbe.cylios_sand": "Cylios Sand",
+  "block.mbe.cylios_stone": "Cylios Stone",
+  "block.mbe.cylios_stone": "Cylios CobbelStone",
+  "block.mbe.cylios_deepslate": "Cylios Deepslate",
 
 
   "tooltips.mbe.uev.zpm": "ZPM-Tier Circuit",

@@ -35,6 +35,10 @@
   "block.mbe.neutronium_reinforced_glass": "中子素强化玻璃",
   "block.mbe.super_stable_concrete": "超级加强混凝土",
 
+  "block.mbe.cylios_sand": "赛里奥斯沙",
+  "block.mbe.cylios_stone": "赛里奥斯石",
+  "block.mbe.cylios_cobbelstone": "赛里奥斯原石",
+  "block.mbe.cylios_deepslate": "赛里奥斯深板岩",
 
 
   "tooltips.mbe.uev.zpm": "ZPM级电路",

@@ -1,0 +1,24 @@
+{
+  "type": "mbe:cylios",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "mbe:cylios",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "mbe:cylios_wasteland",
+          "parameters": {
+            "continentalness": 0,
+            "depth": 0,
+            "erosion": -0.5,
+            "humidity": 0,
+            "offset": 0,
+            "temperature": 0,
+            "weirdness": -0.5
+          }
+        }
+      ]
+    }
+  }
+}
