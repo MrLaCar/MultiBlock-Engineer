@@ -1,6 +1,0 @@
-{
-	"parent": "minecraft:block/cube_all",
-	"textures": {
-		"all": "mbe:block/component_factory_heat_vent"
-	}
-}
