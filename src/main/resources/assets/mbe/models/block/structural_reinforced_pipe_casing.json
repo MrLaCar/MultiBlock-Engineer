@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/cube_bottom_top",
+	"textures": {
+		"bottom": "mbe:block/structural_reinforced_pipe_casing_top",
+		"side": "mbe:block/structural_reinforced_pipe_casing",
+		"top": "mbe:block/structural_reinforced_pipe_casing_top"
+	}
+}

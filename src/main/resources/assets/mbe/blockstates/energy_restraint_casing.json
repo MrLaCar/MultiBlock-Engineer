@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mbe:block/energy_restraint_casing"
+    }
+  }
+}

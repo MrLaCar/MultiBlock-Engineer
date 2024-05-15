@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mbe:block/component_factory_logic_unit"
+    }
+  }
+}
